@@ -10,3 +10,11 @@ Vasicek.py: OU-process related functions
 BS_model.py: Black-Scholes model and option greeks
 statistical_arbitrage: notebook for realizing pair trading based on limit orderbook stock data
 res: results for positions, thresholds, and PnLs
+
+
+
+
+
+Note:
+Higher the transaction costs, larger the optimal entry points for arbitrage, lower the trading frequency.
+Sensitivity analysis needs to be conducted with respect to the level of transaction costs (price impact, bid-ask spread, and commission fees).
